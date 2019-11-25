@@ -30,7 +30,7 @@
 		background-color: #101214;
 		color: white;
 	}
-	#openFollowerModal p.title.is-5, #openFollowingModal p.title.is-5, a.navbar-link {
+	#openFollowerModal p.title.is-5, #openFollowingModal p.title.is-5, a.navbar-link, .content h1, .content h2, .content h3, .content h4, .content h5, .content h6, .content p, .content a {
 		color: white;
 	}
 	button.button.is-primary.is-rounded {
@@ -72,6 +72,22 @@
 	code {
 		background-color: #41454b;
 		color: #f35da1;
+	}
+	.button.is-white:active, .button.is-white.is-active {
+		background-color: #020203;
+		color: white;
+	}
+	.modal-card-head, .modal-card-foot {
+		background-color: #23272a;
+	}
+	.modal-card-title {
+		color: white;
+	}
+	.modal-card-body {
+		background-color: #2c2f33;
+	}
+	.modal-card-head {
+		border-bottom: 1px solid #3b3f44;
 	}
 }
 
